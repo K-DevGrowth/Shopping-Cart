@@ -29,7 +29,7 @@ const Stores = () => {
                 <img src="./public/icon.svg" alt="icon" className="w-5 h-5" />
                 <p className="text-gray-900 font-medium">Successfully added!</p>
               </div>
-              <p className="text-gray-500 text-sm mt-1">{n.title}</p>
+              <p className="text-gray-500 text-sm mt-1">{n.title} added</p>
             </div>
             <button
               type="button"
