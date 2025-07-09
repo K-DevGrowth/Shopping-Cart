@@ -18,11 +18,11 @@ const Stores = () => {
 
   return (
     <>
-      <div className="fixed top-20 right-5 z-50 flex flex-col gap-2">
+      <div className="fixed top-20 lg:right-5 right-0 z-50 flex flex-col gap-2">
         {notifications.map((n) => (
           <div
             key={n.id}
-            className="flex w-96 px-4 py-2 rounded-md bg-white border border-gray-300 shadow-md"
+            className="flex lg:w-96 w-full px-4 py-2 rounded-md bg-white border border-gray-300 shadow-md"
           >
             <div className="flex-1">
               <div className="flex items-center gap-2">
@@ -41,7 +41,7 @@ const Stores = () => {
               <img
                 src="./icon-close.svg"
                 alt="close"
-                className="w-4 h-4"
+                className="lg:w-4 lg:h-4 w-2 h-2"
               />
             </button>
           </div>

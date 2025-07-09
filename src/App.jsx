@@ -25,7 +25,7 @@ const App = () => {
           <h1 className="font-bold text-2xl cursor-pointer">
             <span className="text-indigo-500">K</span>dev.
           </h1>
-          <div className="flex gap-x-6 self-center">
+          <div className="flex lg:gap-x-6 gap-x-0 self-center text-base lg:text-lg">
             <Link
               onClick={() => setActive("")}
               className={`${
@@ -67,7 +67,7 @@ const App = () => {
       </main>
       <footer>
         <div className="bg-gray-900 text-gray-400 text-base *:cursor-pointer p-4 min-h-50 grid place-items-center">
-          <div className="flex gap-x-9 justify-center">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-x-2">
             <p className="hover:text-gray-200">About</p>
             <p className="hover:text-gray-200">Blog</p>
             <p className="hover:text-gray-200">Jobs</p>
@@ -75,7 +75,7 @@ const App = () => {
             <p className="hover:text-gray-200">Accessibility</p>
             <p className="hover:text-gray-200">Partners</p>
           </div>
-          <div className="flex gap-x-8 justify-center -my-6">
+          <div className="flex gap-x-8 justify-center">
             <img
               className="max-w-full hover:brightness-200 block w-5"
               src="./facebook-brands.svg"

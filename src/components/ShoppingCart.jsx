@@ -56,12 +56,12 @@ const ShoppingCart = () => {
   return (
     <div className="p-5 mt-12">
       <h1 className="text-4xl font-bold text-gray-900 my-7">Shopping Cart</h1>
-      <div className="grid grid-cols-[2fr_1fr] gap-x-6">
+      <div className="grid lg:grid-cols-[2fr_1fr] grid-cols-1 gap-x-6">
         <div>
           {uniqueCarts.map((item) => (
             <div
               key={item.id}
-              className="flex gap-x-5 py-4 border-t-2 border-gray-200"
+              className="lg:flex block gap-x-5 py-4 border-t-2 border-gray-200"
             >
               <img
                 className="max-w-full block min-w-60 max-h-60 object-contain mx-auto rounded-md"

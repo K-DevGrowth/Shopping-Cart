@@ -6,10 +6,10 @@ const HomePage = () => {
   return (
     <div className="grid min-h-lvh place-items-center">
       <div className="text-center">
-      <h1 className="text-5xl font-semibold text-gray-900">
+      <h1 className="lg:text-5xl text-4xl font-semibold text-gray-900">
         New arrivals are here
       </h1>
-      <p className="text-lg font-medium wrap-break-word pb-8 text-gray-500 pt-6 max-w-[70%] mx-auto">
+      <p className="lg:text-lg text-base font-medium wrap-break-word pb-8 text-gray-500 pt-6 max-w-[70%] mx-auto">
         The new arrivals have, well, newly arrived. Check out the latest options
         from our summer small-batch release while they're still in stock.
       </p>
