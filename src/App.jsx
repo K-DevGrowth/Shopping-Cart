@@ -57,7 +57,7 @@ const App = () => {
               type="button"
               className="p-1.5 focus:outline-hidden focus:ring-1 focus:ring-white focus:ring-offset-1 rounded-full"
             >
-              <img className="size-6 brightness-75 hover:brightness-200" src="/public/shopping-cart.svg" />
+              <img className="size-6 brightness-75 hover:brightness-200" src="./shopping-cart.svg" />
             </button>
           </Link>
         </nav>
@@ -78,27 +78,27 @@ const App = () => {
           <div className="flex gap-x-8 justify-center -my-6">
             <img
               className="max-w-full hover:brightness-200 block w-5"
-              src="/public/facebook-brands.svg"
+              src="./facebook-brands.svg"
               alt=""
             />
             <img
               className="max-w-full hover:brightness-200 block w-5"
-              src="/public/instagram-brands.svg"
+              src="./instagram-brands.svg"
               alt=""
             />
             <img
               className="max-w-full hover:brightness-200 block w-5"
-              src="/public/x-twitter-brands.svg"
+              src="./x-twitter-brands.svg"
               alt=""
             />
             <img
               className="max-w-full hover:brightness-200 block w-5"
-              src="/public/github-brands.svg"
+              src="./github-brands.svg"
               alt=""
             />
             <img
               className="max-w-full hover:brightness-200 block w-5"
-              src="/public/youtube-brands.svg"
+              src="./youtube-brands.svg"
               alt=""
             />
           </div>

@@ -26,7 +26,7 @@ const Stores = () => {
           >
             <div className="flex-1">
               <div className="flex items-center gap-2">
-                <img src="./public/icon.svg" alt="icon" className="w-5 h-5" />
+                <img src="./icon.svg" alt="icon" className="w-5 h-5" />
                 <p className="text-gray-900 font-medium">Successfully added!</p>
               </div>
               <p className="text-gray-500 text-sm mt-1">{n.title} added</p>
@@ -39,7 +39,7 @@ const Stores = () => {
               className="text-gray-500 hover:text-black ml-2"
             >
               <img
-                src="./public/icon-close.svg"
+                src="./icon-close.svg"
                 alt="close"
                 className="w-4 h-4"
               />
