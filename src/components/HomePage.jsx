@@ -4,7 +4,7 @@ const HomePage = () => {
   const { setActive } = useOutletContext();
 
   return (
-    <div className="grid min-h-lvh place-items-center">
+    <div className="grid h-dvh place-items-center">
       <div className="text-center">
       <h1 className="lg:text-5xl text-4xl font-semibold text-gray-900">
         New arrivals are here

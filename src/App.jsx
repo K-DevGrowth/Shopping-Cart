@@ -19,7 +19,7 @@ const App = () => {
   if (loading) return <p className="text-lg font-semibold">Loading...</p>;
   if (error) return <p>A network error was encountered</p>;
   return (
-    <>
+    <div className="relative h-dvh w-screen overflow-x-hidden">
       <header className="bg-gray-800 fixed top-0 w-full text-gray-300 p-5 text-lg font-semibold">
         <nav className="flex justify-between">
           <h1 className="font-bold text-2xl cursor-pointer">
@@ -107,7 +107,7 @@ const App = () => {
           </p>
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 
